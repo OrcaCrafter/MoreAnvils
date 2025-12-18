@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "wax_copper_anvil",
+  "ingredients": [
+    "more-anvils:weathered_copper_anvil",
+    "minecraft:honeycomb"
+  ],
+  "result": {
+    "count": 1,
+    "id": "more-anvils:waxed_weathered_copper_anvil"
+  }
+}

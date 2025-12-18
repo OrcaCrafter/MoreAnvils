@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "more-anvils",
+	"version": "${version}",
+	"name": "More Anvils",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://github.com/OrcaCrafter/MoreAnvils",
+		"sources": "https://github.com/OrcaCrafter/MoreAnvils"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/more-anvils/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"orca.more_anvils.MoreAnvils"
+		],
+		"client": [
+			"orca.more_anvils.MoreAnvilsClient"
+		],
+		"fabric-datagen": [
+			"orca.more_anvils.MoreAnvilsDataGenerator"
+		]
+	},
+	"mixins": [
+		"more-anvils.mixins.json",
+		{
+			"config": "more-anvils.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

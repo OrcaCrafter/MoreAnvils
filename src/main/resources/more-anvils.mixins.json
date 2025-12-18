@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "orca.more_anvils.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+      "AnvilDamageMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

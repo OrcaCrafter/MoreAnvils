@@ -1,0 +1,11 @@
+// 1.21.10	-999999999-01-01T00:00:00	Mo Anvils/Block Loot Tables
+2547df0063f391e352cac986763c0ea9a5e802ba data/more-anvils/loot_table/blocks/copper_anvil.json
+2ae1fce9a7f83b0a7fdf9ecb7204415f7ec5d74b data/more-anvils/loot_table/blocks/exposed_copper_anvil.json
+be49a304d5e8d04593f55e41b28d6fc2c5ece159 data/more-anvils/loot_table/blocks/gold_anvil.json
+9d3566f19f09ccc741f5506036472c12894ba9c5 data/more-anvils/loot_table/blocks/netherite_anvil.json
+88631fee25c5b961c6e0ce60130c9f8c8ec50d02 data/more-anvils/loot_table/blocks/oxidized_copper_anvil.json
+33f09f3440713fc4417f6405c445ee674880f728 data/more-anvils/loot_table/blocks/waxed_copper_anvil.json
+e1f33e549690a1d80016ff4b00a5da9cc1f1936f data/more-anvils/loot_table/blocks/waxed_exposed_copper_anvil.json
+051536ee78588ecbc9d23a23d8d9e2a7c13f5513 data/more-anvils/loot_table/blocks/waxed_oxidized_copper_anvil.json
+a6daa21d00bfe864f3ea0a1d76dc963118767797 data/more-anvils/loot_table/blocks/waxed_weathered_copper_anvil.json
+0ad07eb9cdf32d83108390c21e287c93ff49c3fa data/more-anvils/loot_table/blocks/weathered_copper_anvil.json

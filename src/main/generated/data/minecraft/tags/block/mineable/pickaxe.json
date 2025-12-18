@@ -1,0 +1,14 @@
+{
+  "values": [
+    "more-anvils:copper_anvil",
+    "more-anvils:exposed_copper_anvil",
+    "more-anvils:weathered_copper_anvil",
+    "more-anvils:oxidized_copper_anvil",
+    "more-anvils:waxed_copper_anvil",
+    "more-anvils:waxed_exposed_copper_anvil",
+    "more-anvils:waxed_weathered_copper_anvil",
+    "more-anvils:waxed_oxidized_copper_anvil",
+    "more-anvils:gold_anvil",
+    "more-anvils:netherite_anvil"
+  ]
+}

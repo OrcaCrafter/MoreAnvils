@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "craft_copper_anvil",
+  "key": {
+    "B": "minecraft:waxed_oxidized_copper",
+    "I": "minecraft:copper_ingot"
+  },
+  "pattern": [
+    "BBB",
+    " I ",
+    "III"
+  ],
+  "result": {
+    "count": 1,
+    "id": "more-anvils:waxed_oxidized_copper_anvil"
+  }
+}
