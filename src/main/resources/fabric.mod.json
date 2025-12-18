@@ -3,9 +3,9 @@
 	"id": "more-anvils",
 	"version": "${version}",
 	"name": "More Anvils",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Anvils of every metal",
 	"authors": [
-		"Me!"
+		"OrcaCrafter"
 	],
 	"contact": {
 		"homepage": "https://github.com/OrcaCrafter/MoreAnvils",
@@ -34,7 +34,7 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.18.1",
-		"minecraft": "~1.21.10",
+		"minecraft": "~1.21.11",
 		"java": ">=21",
 		"fabric-api": "*"
 	},

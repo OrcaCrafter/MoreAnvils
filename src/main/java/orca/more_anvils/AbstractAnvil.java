@@ -7,8 +7,6 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
-import net.minecraft.resources.ResourceKey;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.entity.item.FallingBlockEntity;
@@ -29,6 +27,9 @@ import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import org.jetbrains.annotations.NotNull;
+
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.Identifier;
 
 import java.util.Map;
 import java.util.function.Function;
@@ -108,11 +109,11 @@ public abstract class AbstractAnvil {
 	}
 
 	private static ResourceKey<Block> keyOfBlock(String name) {
-		return ResourceKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(MoreAnvils.MOD_ID, name));
+		return ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(MoreAnvils.MOD_ID, name));
 	}
 
 	private static ResourceKey<Item> keyOfItem(String name) {
-		return ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(MoreAnvils.MOD_ID, name));
+		return ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(MoreAnvils.MOD_ID, name));
 	}
 
 
