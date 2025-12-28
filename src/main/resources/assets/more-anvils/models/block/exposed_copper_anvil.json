@@ -1,8 +1,11 @@
 {
-  "parent": "minecraft:block/template_anvil",
-  "textures": {
-    "top": "more-anvils:block/exposed_copper_anvil_top_cracked",
-    "body": "more-anvils:block/exposed_copper_anvil_body",
-    "particle": "minecraft:block/exposed_copper"
-  }
+	"parent": "more-anvils:block/template_anvil",
+	"textures": {
+		"end":			"more-anvils:block/exposed_copper_anvil/end",
+		"side":			"more-anvils:block/exposed_copper_anvil/side",
+		"base":			"more-anvils:block/exposed_copper_anvil/base",
+		"head_top":		"more-anvils:block/exposed_copper_anvil/head_cracked",
+		"head_bottom":	"more-anvils:block/exposed_copper_anvil/head",
+		"particle":		"minecraft:block/exposed_copper"
+	}
 }

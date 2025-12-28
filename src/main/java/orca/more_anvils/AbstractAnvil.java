@@ -149,6 +149,10 @@ public abstract class AbstractAnvil {
                 serverLevel.levelEvent(1029, blockPos, 0);
             }
         }
+		
+		protected void falling(FallingBlockEntity fallingBlockEntity) {
+			fallingBlockEntity.setHurtsEntities(1.0f, 20);
+		}
     }
 
     public static class WaxedAnvil extends FallingBlock {
@@ -197,6 +201,10 @@ public abstract class AbstractAnvil {
         public int getDustColor(BlockState blockState, BlockGetter blockGetter, BlockPos blockPos) {
             return blockState.getMapColor(blockGetter, blockPos).col;
         }
+		
+		protected void falling(FallingBlockEntity fallingBlockEntity) {
+			fallingBlockEntity.setHurtsEntities(1.0f, 20);
+		}
     }
 
     public static class GoldAnvil extends AnvilBlock {

@@ -1,8 +1,11 @@
 {
-  "parent": "minecraft:block/template_anvil",
-  "textures": {
-    "top": "more-anvils:block/copper_anvil_top",
-    "body": "more-anvils:block/copper_anvil_body",
-    "particle": "minecraft:block/copper_block"
-  }
+	"parent": "more-anvils:block/template_anvil",
+	"textures": {
+		"end":			"more-anvils:block/copper_anvil/end",
+		"side":			"more-anvils:block/copper_anvil/side",
+		"base":			"more-anvils:block/copper_anvil/base",
+		"head_top":		"more-anvils:block/copper_anvil/head",
+		"head_bottom":	"more-anvils:block/copper_anvil/head",
+		"particle":		"minecraft:block/copper_block"
+	}
 }

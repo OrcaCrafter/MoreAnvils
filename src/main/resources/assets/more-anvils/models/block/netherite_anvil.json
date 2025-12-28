@@ -1,8 +1,11 @@
 {
-  "parent": "minecraft:block/template_anvil",
-  "textures": {
-    "top": "more-anvils:block/netherite_anvil_top",
-    "body": "more-anvils:block/netherite_anvil_body",
-    "particle": "minecraft:block/netherite_block"
-  }
+	"parent": "more-anvils:block/template_anvil",
+	"textures": {
+		"end":			"more-anvils:block/netherite_anvil/end",
+		"side":			"more-anvils:block/netherite_anvil/side",
+		"base":			"more-anvils:block/netherite_anvil/base",
+		"head_top":		"more-anvils:block/netherite_anvil/head",
+		"head_bottom":	"more-anvils:block/netherite_anvil/head",
+		"particle":		"minecraft:block/netherite_block"
+	}
 }
