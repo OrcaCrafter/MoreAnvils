@@ -14,13 +14,13 @@ Anvils of every metal
 
 ## More Info
 ### Copper Anvils
- - Crafted with 4 copper ingots, and 3 matching copper blocks, you get one corrisponding copper anvil. Unwaxed copper anvils can be waxed when shift clicked or crafted with a honeycomb item. <br>
+ - Crafted with 4 copper ingots, and 3 matching copper blocks, for copper anvil (based on the copper blocks used). Unwaxed copper anvils can be waxed when shift clicked or crafted with a honeycomb item. <br>
  - Unwaxed copper anvils degrade / oxidize from usage like regular anvils. They also degrade at approximently the same speed as an isolated copper block. When degrading from fully oxidized it breaks dropping nothing. <br>
  - Waxed copper anvils do not work as regular anvils, instead being useful for decoration. <br>
  - All copper anvils are affected by gravity, and deal less falling damage than a regular anvil. <br>
 
 ### Gold Anvil
- - Crafting with 4 gold ingots and 3 gold blocks for one anvil. <br>
+ - Crafted with 4 gold ingots and 3 gold blocks for one anvil. <br>
  - Gold anvils don't have damage stages, and vanish when a regular anvil would get damaged. <br>
  - Gold anvils deal more falling damage than a regular anvil, but less than pointed dripstone. <br>
 
